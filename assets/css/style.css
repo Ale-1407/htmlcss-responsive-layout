@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.space-bet{
+    justify-content: space-between;
+}
+
+/* HEADER */
+
+nav{
+    background-color: dodgerblue;
+}
+
+.container{
+    padding: 20px;
+}
+
+.fa-bars{
+    font-size: 40px;
+    color: white;
+}
