@@ -128,3 +128,28 @@ main{
 }
 
 /* CARD APP DEVELOPEMENT */
+
+.card-appdev{
+    background-color: white;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.img-appdev img{
+    height: 350px;
+}
+
+.text-appdev p{
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.but-card{
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #9792E4;
+    padding: 15px 20px;
+    border: 1px solid #9792E4;
+}
