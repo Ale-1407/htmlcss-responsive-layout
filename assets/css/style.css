@@ -48,7 +48,6 @@ main{
     margin: auto;
     flex-direction: column;
     margin-top: 50px;
-    padding-bottom: 0;
 }
 
 .cards-demo{
@@ -98,4 +97,34 @@ main{
     padding-bottom: 20px;
 }
 
+/*  SECTION STRATEGIC PLANNING */
 
+.container-plan{
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: #9792E4;
+    padding: 35px;
+    line-height: 35px;
+}
+
+.img-plan img{
+    height: 350px;
+}
+
+.img-plan{
+    padding: 80px 20px;
+}
+
+.text-plan{
+    color: white;
+    font-size: 20px;
+}
+
+.text-plan h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+/* CARD APP DEVELOPEMENT */
