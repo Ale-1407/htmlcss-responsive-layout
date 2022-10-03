@@ -167,6 +167,7 @@ nav{
 #purple-text{
     color: #9792E4;
     font-size: 35px;
+    font-weight: bold;
 }
 
 .text-testim p{
@@ -217,4 +218,64 @@ nav{
 .p-card :nth-child(2){
     padding-top: 20px;
     font-weight: bold;
+}
+
+/* SECTION BENEFITS */
+
+.container-benefits{
+    margin: auto;
+    flex-direction: column;
+    margin-top: 60px;
+    background-color: #9792E4;
+    padding: 35px;
+    line-height: 35px;
+}
+
+.text-ben p{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* CARD BENEFITS*/
+
+.card-ben{
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.t-viol{
+    color: #9792E4;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.t-viol2{
+    color: #9792E4;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.text-card-ben :nth-child(3){
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    color: grey;
+}
+
+.but-ben{
+    background-color: #9792E4;
+    border: 1px solid #9792E4;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
