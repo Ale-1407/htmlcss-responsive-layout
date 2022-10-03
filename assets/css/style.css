@@ -387,3 +387,25 @@ nav{
 a{
     text-decoration: underline;
 }
+
+/* FOOTER */
+
+footer{
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-text{
+    font-size: 18px;
+}
+
+.text1{
+    margin-bottom: 50px;
+}
+
+.text2 a{
+    color: #9792E4;
+}
