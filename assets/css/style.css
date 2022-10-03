@@ -38,10 +38,6 @@ nav{
 
 /* SECTION CARD DEMO APP*/
 
-main{
-    width: 480px;
-    height: 778px;
-}
 
 .container-demo{
     width: 80%;
@@ -89,6 +85,7 @@ main{
     height: 300px;
 }
 
+
 /* TIPO CARD 2 */
 
 .icons-card .fa-solid{
@@ -100,7 +97,6 @@ main{
 /*  SECTION STRATEGIC PLANNING */
 
 .container-plan{
-    width: 100%;
     margin: auto;
     flex-direction: column;
     margin-top: 60px;
@@ -110,7 +106,7 @@ main{
 }
 
 .img-plan img{
-    height: 350px;
+    height: 300px;
 }
 
 .img-plan{
@@ -138,7 +134,7 @@ main{
 }
 
 .img-appdev img{
-    height: 350px;
+    height: 300px;
 }
 
 .text-appdev p{
@@ -152,4 +148,73 @@ main{
     background-color: #9792E4;
     padding: 15px 20px;
     border: 1px solid #9792E4;
+}
+
+/* SECTION TESTIMONIALS */
+
+.container-testim{
+    margin: auto;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 35px;
+    line-height: 35px;
+}
+
+.text-testim h3{
+    padding-bottom: 30px;
+}
+
+#purple-text{
+    color: #9792E4;
+    font-size: 35px;
+}
+
+.text-testim p{
+    padding-top: 30px;
+    font-size: 23px;
+}
+
+/* CARD TESTIMONIANZE */
+.card-testim{
+    background-color: #9792E4;
+    border-radius: 60px;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    border-radius: 50%;
+    background-position: center;
+}
+
+.testim1{
+    background-image: url("../img/testimonial1.jpg");
+}
+
+.testim2{
+    background-image: url("../img/testimonial2.jpg");
+}
+
+.testim3{
+    background-image: url("../img/testimonial3.jpg");
+}
+
+.p-card{
+    padding-top: 20px;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.p-card :nth-child(2){
+    padding-top: 20px;
+    font-weight: bold;
 }
