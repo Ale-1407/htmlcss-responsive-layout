@@ -339,3 +339,51 @@ nav{
     top: 10px;
     right: 140px;
 }
+
+/* SECTION GET STARTED */
+
+.container-start{
+    margin: auto;
+    margin-top: 60px;
+    background-color: #9792E4;
+    padding: 60px 35px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+
+.text-start h3{
+    color: #c2c0e6;
+}
+
+.text-start :nth-child(2){
+    font-size: 40px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+.text-start :nth-child(3){
+    color: rgb(234, 180, 44);
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.text-start :nth-child(4){
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.but-start{
+    background-color: white;
+    border: 1px solid white;
+    color: #9792E4;
+    padding: 20px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+a{
+    text-decoration: underline;
+}
