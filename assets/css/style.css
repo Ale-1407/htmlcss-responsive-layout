@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* utility */
@@ -12,6 +15,10 @@
 
 .space-bet{
     justify-content: space-between;
+}
+
+.center{
+    text-align: center;
 }
 
 /* HEADER */
@@ -28,3 +35,67 @@ nav{
     font-size: 40px;
     color: white;
 }
+
+/* SECTION CARD DEMO APP*/
+
+main{
+    width: 480px;
+    height: 778px;
+}
+
+.container-demo{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+.cards-demo{
+    background-color: rgb(199, 218, 252);
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.cards-demo h2{
+    color: dodgerblue;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*  TIPO CARD 1 */
+
+.but{
+    margin: 30px 0;
+}
+
+.but-appstore{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid dodgerblue;
+    padding: 10px 10px;
+    width: 65%;
+    font-size: 18px;
+}
+
+.fa-apple{
+    padding-right: 5px;
+}
+
+.phone-img img{
+    height: 300px;
+}
+
+/* TIPO CARD 2 */
+
+.icons-card .fa-solid{
+    color: dodgerblue;
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+
