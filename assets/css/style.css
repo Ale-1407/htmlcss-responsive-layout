@@ -212,7 +212,11 @@ nav{
     padding-top: 20px;
     color: white;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.p-card .fa-solid{
+    padding: 5px;
 }
 
 .p-card :nth-child(2){
@@ -278,4 +282,60 @@ nav{
     width: 50%;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+/* SECTIIOM ABOUT US*/
+
+.container-ab-us{
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 35px;
+    line-height: 40px;
+}
+
+.p-2{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+/* CARD ABOUT US */
+
+.card-ab-us{
+    padding-top: 30px;
+    position: relative;
+}
+
+.img-ab-us{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url("../img/about.jpg");
+}
+
+.but-ab-us{
+    background-color: #9792E4;
+    color: white;
+    border: 1px solid #9792E4;
+    border-radius: 20px;
+    width: 60%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.fa-linkedin{
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.card-ab-us .fa-quote-left{
+    color: #9792E4;
+    font-size: 80px;
+    position: absolute;
+    top: 10px;
+    right: 140px;
 }
