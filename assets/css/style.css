@@ -419,16 +419,26 @@ footer{
     .container-demo{
         flex-direction: row;
         flex-wrap: wrap;
+        align-content: space-between;
+        max-width: 100%;
         margin: auto;
     }
 
-    .container-demo:first-child{
-       width: calc(66% + 1rem);
+    .container-demo > .cards-demo{
+       width: calc(66% + 10px);
     }
 
     .cards-demo{
-        padding: 0;
-        margin-bottom: 0;
-        width: calc(33% - 2rem);
+        margin: 8px;
+        width: calc(33% - 20px);
+        
     }
 }
+
+/* LAYOUT TABLET */
+@media screen and (min-width: 1024px){
+
+}
+
+    
+
