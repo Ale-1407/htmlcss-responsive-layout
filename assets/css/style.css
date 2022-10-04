@@ -416,5 +416,19 @@ footer{
 /* LAYOUT TABLET */
 
 @media screen and (min-width: 768px){
-    
+    .container-demo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    .container-demo:first-child{
+       width: calc(66% + 1rem);
+    }
+
+    .cards-demo{
+        padding: 0;
+        margin-bottom: 0;
+        width: calc(33% - 2rem);
+    }
 }
