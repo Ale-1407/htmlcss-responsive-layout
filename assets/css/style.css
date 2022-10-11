@@ -277,6 +277,7 @@ nav{
     font-size: 18px;
     line-height: 30px;
     padding-bottom: 30px;
+    font-weight: bold;
     color: grey;
 }
 
@@ -498,6 +499,7 @@ footer{
 
     .text-card-ben :nth-child(3){
         padding-bottom: 20px;
+        font-size: 15px;
     }
 
     .but-start{
@@ -531,6 +533,36 @@ footer{
 @media screen and (min-width: 1024px){
     .but-start{
         width: 30%;
+    }
+
+    .cards-demo1{
+        display: flex;
+    }
+
+    .cards-demo{
+        width: calc(33% - 1.5rem);
+    }
+
+    .phone-img img{
+        margin-top: 120px;
+    }
+
+    .text-card-demo{
+        padding-bottom: 20px;
+    }
+
+    .card-ab-us .fa-quote-left{
+        right: 70px;
+    }
+
+    .card-ben{
+        width: calc(100% / 3 - 20px);
+        margin-top: 20px;
+    }
+
+    .text-card-ben :nth-child(3){
+        padding-bottom: 20px;
+        font-size: 13px;
     }
 }
 
