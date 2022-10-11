@@ -46,7 +46,7 @@ nav{
     margin-top: 50px;
 }
 
-.cards-demo{
+.cards-demo , .cards-demo1{
     background-color: rgb(199, 218, 252);
     border-radius: 20px;
     padding: 30px 30px 0 30px;
@@ -65,6 +65,7 @@ nav{
 
 .but{
     margin: 30px 0;
+    text-align: center;
 }
 
 .but-appstore{
@@ -175,7 +176,8 @@ nav{
 
 .text-testim p{
     padding-top: 30px;
-    font-size: 23px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* CARD TESTIMONIANZE */
@@ -187,6 +189,7 @@ nav{
     flex-direction: column;
     padding: 30px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .test{
@@ -216,6 +219,7 @@ nav{
     color: white;
     line-height: 30px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .p-card .fa-solid{
@@ -420,22 +424,84 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         align-content: space-between;
-        max-width: 100%;
+        width: 90%;
         margin: auto;
+        padding-top: 30px;
     }
 
-    .container-demo > .cards-demo{
-       width: calc(66% + 10px);
+    .container-demo > .cards-demo1{
+       width: calc(62% + 0.5rem);
+       margin: 8px;
     }
 
     .cards-demo{
+        width: calc(33% - 1rem);
         margin: 8px;
-        width: calc(33% - 20px);
-        
+    }
+
+    .cards-demo1{
+        text-align: left;
+    }
+
+    .img-plan img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .but{
+        text-align: left;
+    }
+
+    .phone-img img{
+        margin: 0;
+    }
+
+    .img-appdev img{
+        height: 400px;
+    }
+
+    #purple-text{
+        font-size: 45px;
+    }
+
+    .card-testim{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        padding: 50px 0px;
+        border-radius: 40px;
+    }
+
+    .p-card{
+        font-size: 13px;
+        line-height: normal;
+    }
+
+    .test{
+        margin: auto 10px;
+        width: 170px;
+        height: 100px;
+        background-size: cover;
+        margin-left: 10px;
+    }
+
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-ben{
+        width: calc(100% / 2 - 30px);
+        margin-top: 30px;
+        padding: 20px 30px;
+    }
+
+    .text-card-ben :nth-child(3){
+        padding-bottom: 20px;
     }
 }
 
-/* LAYOUT TABLET */
+/* LAYOUT LAPTOP */
 @media screen and (min-width: 1024px){
 
 }
