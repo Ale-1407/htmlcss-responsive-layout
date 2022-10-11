@@ -480,7 +480,7 @@ footer{
 
     .test{
         margin: auto 10px;
-        width: 170px;
+        width: 160px;
         height: 100px;
         background-size: cover;
         margin-left: 10px;
@@ -563,6 +563,11 @@ footer{
     .text-card-ben :nth-child(3){
         padding-bottom: 20px;
         font-size: 13px;
+    }
+
+    .test{
+        width: 180px;
+        height: 150px;
     }
 }
 
