@@ -328,7 +328,7 @@ nav{
     color: white;
     border: 1px solid #9792E4;
     border-radius: 20px;
-    width: 60%;
+    min-width: 60%;
     margin-top: 20px;
     padding: 5px;
     font-size: 18px;
@@ -343,7 +343,7 @@ nav{
     color: #9792E4;
     font-size: 80px;
     position: absolute;
-    top: 10px;
+    top: 0;
     right: 140px;
 }
 
@@ -499,11 +499,39 @@ footer{
     .text-card-ben :nth-child(3){
         padding-bottom: 20px;
     }
+
+    .but-start{
+        width: 40%;
+    }
+
+    .container-ab-us{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .text-ab-us{
+        width: 50%;
+    }
+
+    .card-ab-us{
+        width: 30%;
+    }
+
+    .but-ab-us{
+        padding: 5px 10px;
+    }
+
+    .card-ab-us .fa-quote-left{
+        right: 0;
+    }
+   
 }
 
 /* LAYOUT LAPTOP */
 @media screen and (min-width: 1024px){
-
+    .but-start{
+        width: 30%;
+    }
 }
 
     
