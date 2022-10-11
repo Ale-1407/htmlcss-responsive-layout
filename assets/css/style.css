@@ -36,6 +36,26 @@ nav{
     color: white;
 }
 
+.list{
+    display: none;
+    color: white;
+    margin: auto 0;
+}
+
+.list span{
+    padding: 10px;
+}
+
+.but-list{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 4px 6px;
+    font-weight: bold;
+
+}
+
 /* SECTION CARD DEMO APP*/
 
 
@@ -568,6 +588,14 @@ footer{
     .test{
         width: 180px;
         height: 150px;
+    }
+
+    .burger{
+        display: none;
+    }
+
+    .list{
+        display: block;
     }
 }
 
