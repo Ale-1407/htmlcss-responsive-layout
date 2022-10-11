@@ -597,6 +597,60 @@ footer{
     .list{
         display: block;
     }
+
+    .container-plan{
+        flex-direction: row;
+        line-height: 20px;
+        justify-content: center;
+    }
+
+    .img-plan img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .img-plan{
+        width: 40%;
+        height: 60%;
+    }
+
+    .text-plan p{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .text-plan h1{
+        font-size: 20px;
+        text-align: left;
+    }
+    
+    .text-plan{
+        margin-top: 50px;
+    }
+
+
+    .card-appdev{
+        width: 28%;
+        height: 30%;
+        margin-top: 100px;
+    }
+
+    .img-appdev img{
+        height: 150px;
+    }
+
+    .text-appdev p{
+        font-size: 15px;
+    }
+
+    .text-appdev h2{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .but-card{
+        font-size: 12px;
+    }
 }
 
     
